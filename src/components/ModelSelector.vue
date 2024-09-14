@@ -7,7 +7,7 @@
             class="cursor-pointer px-4 py-2 rounded-xl border-2 bg-[#111111] border-[#1b1b1bec]"
             @mouseover="animateDropdown"
           >
-            Модели
+            Models
           </a>
           <ul
             class="absolute left-0 hidden group-hover:block rounded-md pt-2 w-[180px]"
@@ -50,7 +50,7 @@ const animateDropdown = () => {
     opacity: 1,
     y: 8,
     duration: 0.3,
-    display: 'block', // Показываем выпадающий список
+    display: 'block',
   });
 };
 

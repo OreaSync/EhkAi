@@ -5,7 +5,7 @@
         required
         v-model="inputValue"
         type="text"
-        placeholder="Мой крутой вопрос"
+        placeholder="My cool question"
         class="border-2 opacity-50 focus:opacity-100 hover:opacity-100 transition ease-in-out delay-250 bg-[#111111] border-[#1b1b1bec] focus:outline-none rounded resize-none w-full md:w-2/3 lg:w-3/4 xl:w-2/5 px-2 py-1"
         rows="1"
       />
