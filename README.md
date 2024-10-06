@@ -1,7 +1,6 @@
-<h3 align="center">EhkAi</h3>
-![image](https://github.com/user-attachments/assets/adf532a6-ebd8-4820-8a75-f07572850cc1)
+<h3 align="center"># EhkAi</h3>
 
-## Установка
+## ⚡ Установка
 <h3 align="center">Windows</h3>
 
 Установка NodeJS:
