@@ -1,4 +1,4 @@
-<h3 align="center"># EhkAi</h3>
+<h1 align="center"># EhkAi</h1>
 
 ## ⚡ Установка
 <h3 align="center">Windows</h3>
