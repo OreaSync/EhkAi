@@ -6,5 +6,4 @@ import { Icon } from '@iconify/vue';
 const app = createApp(App);
 app.component('Icon', Icon);
 
-// Монтируем Vue приложение
 app.mount('#app');

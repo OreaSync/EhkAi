@@ -12,6 +12,7 @@
     "@iconify/vue": "^4.1.2",
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
+    "axios": "^1.7.7",
     "express": "^4.19.2",
     "gsap": "^3.12.5",
     "iconify": "^1.4.0",

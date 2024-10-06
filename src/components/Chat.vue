@@ -4,12 +4,12 @@
       <div v-for="(message, index) in messages" :key="index">
         <div v-if="message.role === 'user'" class="flex flex-row-reverse items-center mb-1">
           <h2 class="ml-2">User</h2>
-          <div class="border p-1 rounded-xl flex items-center justify-center">
+          <div class="border-2 p-1 rounded-xl flex items-center justify-center">
             <Icon icon="ri:user-3-line" width="1.5em" height="1.5em" />
           </div>
         </div>
         <div v-if="message.role === 'ai'" class="flex items-center mb-1">
-          <div class="border p-1 rounded-xl flex items-center justify-center">
+          <div class="border-2 p-1 rounded-xl flex items-center justify-center">
             <Icon icon="mingcute:ai-line" width="1.5em" height="1.5em" />
           </div>
           <h2 class="ml-2">{{ message.modelName }}</h2>
@@ -22,8 +22,7 @@
   </template>
   
   <script setup>
-  import { defineProps } from 'vue';
-  
+
   const props = defineProps({
   messages: Array
 });

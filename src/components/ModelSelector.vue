@@ -5,7 +5,7 @@
         <li>
           <a
             class="cursor-pointer px-4 py-2 rounded-xl border-2 bg-[#111111] border-[#1b1b1bec]"
-            @mouseover="animateDropdown"
+            @mouseenter="animateDropdown"
           >
             Models
           </a>
@@ -30,7 +30,7 @@
 </template>
 
 <script setup>
-import { ref, defineEmits } from 'vue';
+import { ref } from 'vue';
 import gsap from 'gsap';
 
 const Selector = ref(null);

@@ -6,8 +6,7 @@
         v-model="inputValue"
         type="text"
         placeholder="My cool question"
-        class="border-2 opacity-50 focus:opacity-100 hover:opacity-100 transition ease-in-out delay-250 bg-[#111111] border-[#1b1b1bec] focus:outline-none rounded resize-none w-full md:w-2/3 lg:w-3/4 xl:w-2/5 px-2 py-1"
-        rows="1"
+        class="border-2 opacity-50 focus:opacity-100 hover:opacity-100 overflow-y-hidden transition ease-in-out delay-250 bg-[#111111] border-[#1b1b1bec] focus:outline-none rounded resize-none w-full md:w-2/3 lg:w-3/4 xl:w-2/5 px-2 py-1"
       />
       <button :disabled="sendTimeout" @click="sendMessage" class="bg-blue-500 text-white focus:outline-none px-[9.5px] py-1 rounded">
         <Icon icon="mingcute:send-line" width="1.4em" height="1.4em" />
