@@ -1,5 +1,5 @@
 <h3 align="center">EhkAi</h3>
-![EhkAi](https://github.com/user-attachments/assets/84103de7-a8ae-444b-a8b7-9ae26f5877b7)
+![image](https://github.com/user-attachments/assets/adf532a6-ebd8-4820-8a75-f07572850cc1)
 
 ## Установка
 <h3 align="center">Windows</h3>
