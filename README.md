@@ -1,6 +1,12 @@
-<h1 align="center"># EhkAi</h1>
+<h1 align="center">EhkAi</h1>
 
-## ⚡ Установка
+<h4 align="center">
+    Сайт для использования искусственных интеллектов
+</h4>
+
+![image](https://github.com/user-attachments/assets/043f179a-2cdf-435a-a9df-e65f73e3bfad)
+
+## ⚡ **Установка**
 <h3 align="center">Windows</h3>
 
 Установка NodeJS:
