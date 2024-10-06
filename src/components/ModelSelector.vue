@@ -29,6 +29,11 @@ const dropDownAnim = ref(null);
 
 const models = [
   { name: 'GPT3.5 Turbo' },
+  { name: 'GPT-4o Mini'},
+  { name: 'GPT-4 Nexra' },
+  { name: 'GPT-3.5 Turbo Nexra'},
+  { name: 'Command-R+'},
+  { name: 'Qwen'},
   { name: 'Blackbox' },
   { name: 'Gemini Pro' },
   { name: 'Gemini' },

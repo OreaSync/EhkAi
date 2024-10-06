@@ -1,6 +1,6 @@
 <template>
   <!-- Тута кароче строка ввода -->
-    <div class="fixed bottom-0 left-0 right-0 flex gap-2 justify-center p-4 mb-4" ref="Area">
+    <div class="fixed left-0 right-0 bottom-0 flex gap-2 justify-center" ref="Area">
       <textarea
         required
         v-model="inputValue"
@@ -13,7 +13,7 @@
         <Icon icon="mingcute:send-line" width="1.4em" height="1.4em" />
       </button>
     </div>
-  </template>
+</template>
   
   <script setup>
   import { ref, onMounted } from 'vue';
@@ -45,6 +45,21 @@
       case 'GPT3.5 Turbo':
         dataToSend = [{ role: 'user', content: inputValue.value }];
         break;
+      case 'GPT-4o Mini':
+        dataToSend = {model: 'gpt-4o-mini', request: {messages: [{ role: 'user', content: inputValue.value }]}};
+        break;
+      case 'GPT-4 Nexra':
+        dataToSend = {model: 'nx-gpt-4', request: {messages: [{ role: 'user', content: inputValue.value }]}};
+        break;
+      case 'GPT-3.5 Turbo Nexra':
+        dataToSend = {model: 'nx-gpt-3.5-turbo', request: {messages: [{ role: 'user', content: inputValue.value }]}};
+        break;
+      case 'Command-R+':
+        dataToSend = {model: 'command-r+', request: {messages: [{ role: 'user', content: inputValue.value }]}};
+        break;
+      case 'Qwen':
+        dataToSend = {model: 'qwen', request: {messages: [{ role: 'user', content: inputValue.value }]}};
+        break;
       case 'Blackbox':
         dataToSend = {model: 'blackbox', request: {messages: [{ role: 'user', content: inputValue.value }]}};
         break;
@@ -72,7 +87,7 @@
     }
   }
 onMounted(() => {
-  gsap.fromTo(Area.value, { opacity: 0 }, { opacity: 1, y: 16, duration: 1 });
+  gsap.fromTo(Area.value, { opacity: 0 }, { opacity: 1, y: -16, duration: 1 });
 })
   </script>
   
