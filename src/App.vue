@@ -1,5 +1,4 @@
 <template>
-  <WelcomeTitle />
   <ModelSelector @selectModel="selectModel" />
   <Chat :messages="messages" :name="modelType" />
   <SearchBar
@@ -13,7 +12,6 @@
 import SearchBar from './components/SearchBar.vue';
 import Chat from './components/Chat.vue';
 import ModelSelector from './components/SelectModel.vue';
-import WelcomeTitle from './components/WelcomeTitle.vue';
 import { ref } from 'vue';
 
 const modelType = ref('GPT.3.5 Turbo')
