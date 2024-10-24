@@ -1,2 +1,2 @@
-bun run dev
+npm run dev
 pause
